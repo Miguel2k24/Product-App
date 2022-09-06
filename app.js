@@ -70,7 +70,7 @@ document.getElementById('product-form')
 
         e.preventDefault();
     });
-
+    
     document.getElementById('product-list').addEventListener('click', function(e) {
         const ui = new UI();
         ui.deleteProduct(e.target);
